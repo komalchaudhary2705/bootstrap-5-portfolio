@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Komal.Dev | Digital CV & Portfolio</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="bg-body text-body">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-secondary-subtle sticky-top">
+        <div class="container py-2">
+
+            <a class="navbar-brand fw-bold fs-3 text-body" href="#home">
+                <span class="text-info">Komal</span>.Dev
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto gap-lg-3 align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="ri-user-line"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">
+                            <i class="ri-folder-line"></i> Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="ri-mail-line"></i> Contact
+                        </a>
+                    </li>
+
+                    <!-- THEME SWITCH -->
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+
+                        <button type="button" id="themeToggle" class="btn btn-outline-info rounded-pill">
+
+                            <i id="themeIcon" class="ri-sun-line"></i>
+                            <span id="themeText">Light Mode</span>
+
+                        </button>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HOME / HERO -->
+    <section id="home" class="min-vh-100 d-flex align-items-center py-5">
+
+        <div class="container py-5">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-7">
+
+                    <p class="text-info fw-bold mb-4">
+                        <i class="ri-hand-heart-line fs-4"></i>
+                        HELLO, I'M KOMAL
+                    </p>
+
+                    <h1 class="display-3 fw-bold mb-4">
+                        Aspiring
+                        <span class="text-info">Full-Stack</span>
+                        Web Developer.
+                    </h1>
+
+                    <p class="fs-5 mb-4">
+                        I'm learning to build modern, responsive websites
+                        and complete web applications. I enjoy solving
+                        problems and turning ideas into useful digital
+                        experiences.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-3">
+
+                        <a href="#portfolio" class="btn btn-info btn-lg">
+                            View My Portfolio
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline-info btn-lg">
+                            Contact Me
+                            <i class="ri-mail-line"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="d-flex gap-4 mt-4 fs-3">
+
+                        <a href="https://github.com/" class="link-body-emphasis" aria-label="GitHub">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://linkedin.com/" class="link-body-emphasis" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+
+                        <a href="mailto:your-email@example.com" class="link-body-emphasis" aria-label="Email">
+                            <i class="ri-mail-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- PROFILE CARD -->
+                <div class="col-lg-5">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4 shadow-lg">
+
+                        <div class="card-body p-4 p-md-5 text-center">
+
+                            <i class="ri-user-smile-line text-info" style="font-size: 100px;"></i>
+
+                            <h2 class="h3 fw-bold mt-3">Komal</h2>
+
+                            <p class="text-body">
+                                Aspiring Full-Stack Developer
+                            </p>
+
+                            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+
+                                <span class="badge bg-primary p-2">HTML</span>
+                                <span class="badge bg-info text-dark p-2">CSS</span>
+                                <span class="badge bg-warning text-dark p-2">JavaScript</span>
+                                <span class="badge bg-success p-2">Bootstrap 5</span>
+
+                            </div>
+
+                            <hr class="border-secondary">
+
+                            <p class="mb-0">
+                                <i class="ri-code-s-slash-line text-info"></i>
+                                Always learning, always building.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5 bg-body-secondary">
+
+        <div class="container py-5">
+
+            <div class="text-center mb-5">
+
+                <p class="text-info fw-bold">GET TO KNOW ME</p>
+
+                <h2 class="display-5 fw-bold">
+                    About <span class="text-info">Me</span>
+                </h2>
+
+                <p class="text-body">
+                    Learn more about my journey and goals.
+                </p>
+
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <div class="col-lg-6">
+
+                    <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+
+                        <div class="card-body p-4 p-md-5">
+
+                            <h3 class="h4 fw-bold mb-3">Who Am I?</h3>
+
+                            <p>
+                                I'm Komal, an aspiring full-stack web developer
+                                interested in creating attractive and useful
+                                websites.
+                            </p>
+
+                            <p>
+                                I'm building my foundation in frontend
+                                development and gradually working toward
+                                backend development, databases, APIs, and
+                                deployment.
+                            </p>
+
+                            <a href="#contact" class="btn btn-outline-info mt-2">
+                                Let's Connect
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="row g-3">
+
+                        <div class="col-sm-6">
+                            <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                                <div class="card-body p-4">
+                                    <i class="ri-code-box-line fs-1 text-info"></i>
+                                    <h3 class="h5 fw-bold mt-3">Development</h3>
+                                    <p>Learning to build responsive websites.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                                <div class="card-body p-4">
+                                    <i class="ri-lightbulb-line fs-1 text-info"></i>
+                                    <h3 class="h5 fw-bold mt-3">Problem Solving</h3>
+                                    <p>Practicing programming logic and skills.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                                <div class="card-body p-4">
+                                    <i class="ri-book-open-line fs-1 text-info"></i>
+                                    <h3 class="h5 fw-bold mt-3">Learning</h3>
+                                    <p>Exploring new tools and technologies.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                                <div class="card-body p-4">
+                                    <i class="ri-rocket-line fs-1 text-info"></i>
+                                    <h3 class="h5 fw-bold mt-3">My Goal</h3>
+                                    <p>Become a capable full-stack developer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-5">
+
+        <div class="container py-5">
+
+            <div class="text-center mb-5">
+
+                <p class="text-info fw-bold">MY WORK</p>
+
+                <h2 class="display-5 fw-bold">
+                    My <span class="text-info">Portfolio</span>
+                </h2>
+
+                <p>Projects I'm developing as I learn.</p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4 h-100">
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center p-4 mb-3 bg-primary bg-opacity-25 rounded-3">
+                                <i class="ri-layout-4-line text-info" style="font-size: 60px;"></i>
+                            </div>
+
+                            <span class="badge bg-info text-dark mb-3">Bootstrap 5</span>
+
+                            <h3 class="h4 fw-bold">Digital CV</h3>
+
+                            <p>
+                                A personal website introducing my skills,
+                                background, projects, and contact details.
+                            </p>
+
+                            <a href="#home" class="btn btn-outline-info btn-sm">
+                                View Project
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4 h-100">
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center p-4 mb-3 bg-success bg-opacity-25 rounded-3">
+                                <i class="ri-shopping-bag-3-line text-info" style="font-size: 60px;"></i>
+                            </div>
+
+                            <span class="badge bg-success mb-3">Web Design</span>
+
+                            <h3 class="h4 fw-bold">Online Store</h3>
+
+                            <p>
+                                A practice e-commerce design with product
+                                cards, categories, and shopping buttons.
+                            </p>
+
+                            <a href="#contact" class="btn btn-outline-info btn-sm">
+                                Project Details
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4 h-100">
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center p-4 mb-3 bg-warning bg-opacity-25 rounded-3">
+                                <i class="ri-task-line text-info" style="font-size: 60px;"></i>
+                            </div>
+
+                            <span class="badge bg-warning text-dark mb-3">JavaScript</span>
+
+                            <h3 class="h4 fw-bold">Task Manager</h3>
+
+                            <p>
+                                A planned task application for practicing
+                                JavaScript and user interactions.
+                            </p>
+
+                            <a href="#contact" class="btn btn-outline-info btn-sm">
+                                Project Details
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="py-5 bg-body-secondary">
+
+        <div class="container py-5">
+
+            <div class="text-center mb-5">
+
+                <p class="text-info fw-bold">WHAT I AM LEARNING</p>
+
+                <h2 class="display-5 fw-bold">
+                    My <span class="text-info">Services</span>
+                </h2>
+
+                <p>Areas I'm developing skills in.</p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                        <div class="card-body p-4">
+
+                            <i class="ri-window-line fs-1 text-info"></i>
+
+                            <h3 class="h4 fw-bold mt-3">Web Development</h3>
+
+                            <p>
+                                Learning to create responsive web pages
+                                using HTML and Bootstrap 5.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                        <div class="card-body p-4">
+
+                            <i class="ri-smartphone-line fs-1 text-info"></i>
+
+                            <h3 class="h4 fw-bold mt-3">Responsive Design</h3>
+
+                            <p>
+                                Practicing layouts for mobile devices,
+                                tablets, and desktop screens.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card bg-body text-body border border-secondary-subtle rounded-4 h-100">
+                        <div class="card-body p-4">
+
+                            <i class="ri-code-s-slash-line fs-1 text-info"></i>
+
+                            <h3 class="h4 fw-bold mt-3">Full-Stack Development</h3>
+
+                            <p>
+                                Working toward learning frontend,
+                                backend, APIs, and databases.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-center mt-4 mb-0">
+                <small>These are learning areas, not claims of professional experience.</small>
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5">
+
+        <div class="container py-5">
+
+            <div class="text-center mb-5">
+
+                <p class="text-info fw-bold">GET IN TOUCH</p>
+
+                <h2 class="display-5 fw-bold">
+                    Contact <span class="text-info">Me</span>
+                </h2>
+
+                <p>Have a question? I'd love to hear from you.</p>
+
+            </div>
+
+            <div class="row justify-content-center g-4">
+
+                <!-- Contact details -->
+                <div class="col-lg-4">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4 h-100">
+
+                        <div class="card-body p-4">
+
+                            <h3 class="h4 fw-bold mb-4">Contact Information</h3>
+
+                            <div class="d-flex gap-3 mb-4">
+                                <i class="ri-mail-line fs-3 text-info"></i>
+                                <div>
+                                    <h4 class="h6 fw-bold">Email</h4>
+                                    <p>your-email@example.com</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex gap-3 mb-4">
+                                <i class="ri-github-fill fs-3 text-info"></i>
+                                <div>
+                                    <h4 class="h6 fw-bold">GitHub</h4>
+                                    <a href="https://github.com/" class="link-info">
+                                        Visit my profile
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="d-flex gap-3">
+                                <i class="ri-linkedin-fill fs-3 text-info"></i>
+                                <div>
+                                    <h4 class="h6 fw-bold">LinkedIn</h4>
+                                    <a href="https://linkedin.com/" class="link-info">
+                                        Connect with me
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Contact form -->
+                <div class="col-lg-6">
+
+                    <div class="card bg-body-tertiary text-body border border-secondary-subtle rounded-4">
+
+                        <div class="card-body p-4 p-md-5">
+
+                            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control bg-body text-body border-secondary" id="name"
+                                        name="Name" placeholder="Enter your name" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control bg-body text-body border-secondary"
+                                        id="email" name="Email" placeholder="Enter your email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control bg-body text-body border-secondary"
+                                        id="subject" name="Subject" placeholder="Enter subject" required>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control bg-body text-body border-secondary" id="message"
+                                        name="Message" rows="5" placeholder="Write your message..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-info btn-lg w-100">
+                                    Send Message
+                                    <i class="ri-send-plane-line"></i>
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-body-tertiary border-top border-secondary-subtle py-4">
+
+        <div class="container">
+
+            <div class="row align-items-center text-center g-3">
+
+                <div class="col-md-6 text-md-start">
+                    <a href="#home" class="text-body fw-bold fs-4 text-decoration-none">
+                        <span class="text-info">Komal</span>.Dev
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">
+                        Built with Bootstrap 5
+                        <i class="ri-heart-fill text-danger"></i>
+                        by Komal
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-3">
+                <a href="#home" class="link-info text-decoration-none">
+                    Back to top <i class="ri-arrow-up-line"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- LIGHT / DARK THEME SWITCH -->
+    <script>
+        const themeToggle = document.getElementById("themeToggle");
+        const themeIcon = document.getElementById("themeIcon");
+        const themeText = document.getElementById("themeText");
+
+        themeToggle.addEventListener("click", function () {
+
+            const html = document.documentElement;
+
+            const currentTheme = html.getAttribute("data-bs-theme");
+
+            if (currentTheme === "dark") {
+
+                html.setAttribute("data-bs-theme", "light");
+
+                themeIcon.className = "ri-moon-line";
+                themeText.textContent = "Dark Mode";
+
+            } else {
+
+                html.setAttribute("data-bs-theme", "dark");
+
+                themeIcon.className = "ri-sun-line";
+                themeText.textContent = "Light Mode";
+
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
